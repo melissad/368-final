@@ -1,0 +1,255 @@
+body {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 0px;
+  background-color: #a5b3aa;
+  background-image: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  font-size: 12px;
+  line-height: 20px;
+}
+h1 {
+  position: static;
+  display: block;
+  overflow: visible;
+  margin: 45px auto 10px;
+  padding-top: 0px;
+  border-radius: 0px;
+  font-family: Merriweather, serif;
+  color: #a5b3aa;
+  font-size: 50px;
+  line-height: 44px;
+  font-weight: 400;
+  text-align: center;
+  text-shadow: black 0px -2px 3px;
+}
+h2 {
+  margin: 10px 0px;
+  font-family: Merriweather, serif;
+  color: #a5b3aa;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: left;
+  text-shadow: black 0px 2px 3px;
+}
+h3 {
+  margin: 10px 1px 10px 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  font-family: Merriweather, serif;
+  color: #a5b3aa;
+  font-size: 20px;
+  line-height: 30px;
+  font-style: italic;
+  font-weight: 300;
+  text-align: right;
+  text-shadow: black 1px 1px 3px;
+}
+h4 {
+  margin: 10px 0px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+h5 {
+  margin: 10px 0px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+h6 {
+  margin: 10px 0px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+p {
+  margin-top: 30px;
+  margin-bottom: 5px;
+  font-family: Merriweather, serif;
+  color: #4e3f30;
+  line-height: 23px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0px;
+}
+a:hover {
+	background-color: #1F6875;
+}
+a:active {
+	color: white;
+}
+.button {
+  position: static;
+  display: block;
+  overflow: visible;
+  width: auto;
+  height: auto;
+  margin-top: 22px;
+  margin-right: 10px;
+  margin-left: 0px;
+  padding: 0px 15px 4px;
+  float: none;
+  clear: none;
+  border-radius: 20px;
+  background-color: rgba(12, 165, 176, 0.74);
+  opacity: 1;
+  -webkit-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+  font-family: Merriweather, serif;
+  color: #4e3f30;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: none;
+}
+.banner {
+  border: 1px none black;
+  background-color: #f8f4e4;
+  background-image: url(../images/tileable_wood_texture_%402X.png);
+  background-attachment: fixed;
+}
+.logo {
+  margin-top: 10px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 20px;
+  background-image: none;
+}
+.menu {
+  margin-top: 11px;
+  padding-bottom: 0px;
+}
+.slogan {
+  margin-right: 8px;
+  text-shadow: black 1px 1px 3px;
+}
+.title {
+  color: #4e3f30;
+  line-height: 22px;
+  font-style: normal;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 1px;
+  text-indent: 0px;
+  text-shadow: none;
+}
+.section1 {
+  margin-top: 30px;
+  padding-bottom: 10px;
+  background-image: url(../images/tileable_wood_texture_%402X.png);
+  background-size: auto;
+  background-repeat: repeat repeat;
+  background-attachment: fixed;
+}
+.section2 {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  background-image: url(../images/tileable_wood_texture_%402X.png);
+  background-attachment: fixed;
+}
+.section1.footer {
+	background: url(../images/sprite.png) 0 -128px no-repeat;
+}
+.footer {
+  
+  margin-top: 30px;
+  padding-bottom: 0px;
+  background-image: url(../images/tileable_wood_texture_%402X.png);
+  background-attachment: fixed;
+}
+.social-media {
+  font-family: Merriweather, serif;
+  color: #4e3f30;
+  line-height: 22px;
+  font-weight: 700;
+  text-align: center;
+}
+.twitter {
+  display: inline;
+}
+.media {
+  padding-bottom: 10px;
+}
+.column {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.column1 {
+  margin-top: 20px;
+}
+.history {
+  padding-top: 10px;
+}
+.sandwiches {
+  margin-top: 10px;
+}
+.paragraph-heading {
+  text-align: center;
+  text-shadow: black 0px 2px 3px;
+}
+.topic-heading {
+  text-shadow: black 0px 2px 3px;
+}
+.mission-container {
+  margin-top: 0px;
+  padding-top: 10px;
+}
+.treats {
+  margin-top: 10px;
+}
+@media (max-width: 991px) {
+  .banner {
+    padding-bottom: 10px;
+    background-image: url(../images/tileable_wood_texture_%402X.png);
+  }
+  .section1 {
+    background-image: url(../images/tileable_wood_texture_%402X.png);
+  }
+  .history {
+    margin-top: 35px;
+  }
+  .paragraph-heading {
+    text-shadow: black 0px 2px 3px;
+  }
+}
+@media (max-width: 767px) {
+  .mission {
+    position: static;
+    clear: none;
+  }
+  .section1 {
+    background-image: url(../images/tileable_wood_texture_%402X.png);
+  }
+  .paragraph-heading {
+    text-shadow: black 0px 2px 3px;
+  }
+}
+@media (max-width: 479px) {
+  .section1 {
+    background-image: url(../images/tileable_wood_texture_%402X.png);
+  }
+  .sandwiches {
+    text-align: left;
+  }
+  .paragraph-heading {
+    text-shadow: black 0px 2px 3px;
+  }
+}
