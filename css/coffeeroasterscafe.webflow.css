@@ -165,17 +165,25 @@ a:active {
   background-image: url(../images/tileable_wood_texture_%402X.png);
   background-attachment: fixed;
 }
-.section1.footer {
-	background: url(../images/sprite.png) 0 -128px no-repeat;
-}
+
 .footer {
-  
+ 
   margin-top: 30px;
   padding-bottom: 0px;
   background-image: url(../images/tileable_wood_texture_%402X.png);
   background-attachment: fixed;
 }
+.sprite{
+background: url("../images/sprite.png") no-repeat 0 0;
+padding: 0 0 0 32px;	
+}
+
+.sprite:hover {
+background-position: 0 -64px;
+}
+	
 .social-media {
+	 background: url("../images/sprite.png") no-repeat 0 0;
   font-family: Merriweather, serif;
   color: #4e3f30;
   line-height: 22px;
