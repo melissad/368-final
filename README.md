@@ -20,11 +20,7 @@ My objective for my website
 
 *Home page with mission statement & History
 
-*Food & beverage page
-
-*Specials page
-
-*Contact us page
+*Food & beverage pages
 
 *Pictures relative to the color scheme and topic
 
